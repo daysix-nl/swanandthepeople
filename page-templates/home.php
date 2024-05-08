@@ -7,7 +7,7 @@
  get_header(); ?>
 
 <main>
-    <section class="swiper mySwiper relative">
+    <!-- <section class="swiper mySwiper relative">
         <div class="swiper-wrapper rounded-b-[20px] overflow-hidden">
             <div class="swiper-slide w-full overflow-hidden h-[60vh]">
                 <img src="https://swanandthepeople.com/wp-content/uploads/2023/12/55-kopie.jpg" class="min-h-full min-w-full object-cover object-center-center" />
@@ -113,7 +113,7 @@
         </div>
     </section>
 
-    <section class="bg-[#f9f9f9] w-full h-[800px] my-[80px]"></section>
+    <section class="bg-[#f9f9f9] w-full h-[800px] my-[80px]"></section> -->
 
 
 
