@@ -1,0 +1,31 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    a .selectoption {
+        top: 35px;
+        left: 0px;
+        right: 0px;
+        opacity: 0;
+        transition-duration: 0.3s;
+    }
+
+    a:hover .selectoption {
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        opacity: 1;
+        transition-duration: 0.3s;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    a .video {
+        opacity: 0;
+        transition-duration: 0.3s;
+    }
+
+    a:hover .video {
+        opacity: 1;
+        transition-duration: 0.3s;
+    }
+}

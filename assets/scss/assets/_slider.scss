@@ -1,0 +1,37 @@
+.swiper {
+    overflow: unset;
+}
+
+.swiper-horizontal>.swiper-scrollbar,
+.swiper-scrollbar.swiper-scrollbar-horizontal {
+    position: relative;
+    left: 0%;
+    bottom: 0px;
+    z-index: 50;
+    height: 5px;
+    width: 100%;
+}
+
+.swiper-scrollbar-drag {
+    background: #5D7365 !important;
+}
+
+.swiper-thumbs {
+    .swiper-slide {
+        background: #fff !important;
+
+        img,
+        video {
+            opacity: 0.7 !important;
+        }
+    }
+
+    .swiper-slide.swiper-slide-thumb-active {
+
+        img,
+        video {
+
+            opacity: 1 !important;
+        }
+    }
+}

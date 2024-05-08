@@ -1,0 +1,22 @@
+{
+    "key": "ui_options_page_66261d21e8c75",
+    "title": "Menu",
+    "active": true,
+    "menu_order": 0,
+    "page_title": "Menu",
+    "menu_slug": "menu",
+    "parent_slug": "none",
+    "advanced_configuration": 0,
+    "icon_url": "",
+    "menu_title": "",
+    "position": "",
+    "redirect": 0,
+    "description": "",
+    "update_button": "Updaten",
+    "updated_message": "Options Updated",
+    "capability": "edit_posts",
+    "data_storage": "options",
+    "post_id": "",
+    "autoload": 0,
+    "modified": 1713773872
+}
