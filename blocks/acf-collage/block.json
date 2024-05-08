@@ -1,9 +1,9 @@
 {
-  "name": "acf-leegx",
-  "title": "Leeg",
+  "name": "acf-collage",
+  "title": "Collage",
   "description": "",
   "category": "bibliotheek",
-  "icon": "warningh",
+  "icon": "schedule",
   "keywords": [
     "block"
   ],
@@ -13,13 +13,13 @@
   },
   "acf": {
     "mode": "preview",
-    "renderTemplate": "acf-leeg.php"
+    "renderTemplate": "acf-collage.php"
   },
   "example": {
     "attributes": {
       "mode": "preview",
       "data": {
-        "preview_image_help": "/wp-content/themes/swananthepeople/img/preview-images/leeg.jpeg",
+        "preview_image_help": "/wp-content/themes/swananthepeople/img/local/leeg.png",
         "is_preview": true
       }
     }
