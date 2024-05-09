@@ -49,13 +49,13 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                             </div>
                         </div>
                         <div class="h-full flex lg:w-full lg:max-w-[652px] xl:max-w-[733px] justify-between order-1 lg:order-2 pt-[80px] lg:pt-[unset]">
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden mr-[30px] lg:mr-[unset]">
+                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px] mr-[30px] lg:mr-[unset]">
                                 <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
                             </div>
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden mr-[30px] lg:mr-[unset]">
+                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px] mr-[30px] lg:mr-[unset]">
                                 <img src="<?php echo $image2_url; ?>" alt="<?php echo $image2_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
                             </div>
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden">
+                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px]">
                                 <img src="<?php echo $image3_url; ?>" alt="<?php echo $image3_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
                             </div>
                         </div>

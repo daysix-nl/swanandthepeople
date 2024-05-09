@@ -26,11 +26,11 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
         <section class="md:container">
             <div class="w-full flex flex-col lg:flex-row lg:items-center">
                 <div class="w-[calc(100%-30px)] md:w-[calc(100%-25px)] lg:w-[50%] flex justify-center mx-auto order-1">
-                    <div class="h-[480px] w-[520px] relative px-[15px] md:px-[unset]">
-                        <div class="w-[290px] h-[420px] bg-black rounded-[20px] overflow-hidden absolute left-0 top-0">
+                    <div class="w-[360px] h-[350px] md:h-[480px] md:w-[520px] relative px-[15px] md:px-[unset]">
+                        <div class="w-[200px] h-[290px] md:w-[290px] md:h-[420px] bg-black rounded-[20px] overflow-hidden absolute left-0 top-0">
                             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-w-full min-h-full object-cover object-center">
                         </div>
-                        <div class="w-[290px] h-[420px] bg-black rounded-[20px] overflow-hidden absolute bottom-0 right-0">
+                        <div class="w-[200px] h-[290px] md:w-[290px] md:h-[420px] bg-black rounded-[20px] overflow-hidden absolute bottom-0 right-0">
                             <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="h-full min-w-full min-h-full object-cover object-center">
                         </div>
                     </div>
@@ -67,11 +67,11 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                 </div>
             </div>
             <div class="w-[calc(100%-30px)] md:w-[calc(100%-25px)] lg:w-[50%] flex justify-center mx-auto order-1 lg:order-2">
-                    <div class="h-[480px] w-[520px] relative px-[15px] md:px-[unset]">
-                        <div class="w-[290px] h-[420px] bg-black rounded-[20px] overflow-hidden absolute top-0 right-0">
+                    <div class="w-[360px] h-[350px] md:h-[480px] md:w-[520px] relative px-[15px] md:px-[unset]">
+                        <div class="w-[200px] h-[290px] md:w-[290px] md:h-[420px] bg-black rounded-[20px] overflow-hidden absolute top-0 right-0">
                             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-w-full min-h-full object-cover object-center">
                         </div>
-                        <div class="w-[290px] h-[420px] bg-black rounded-[20px] overflow-hidden absolute bottom-0 left-0">
+                        <div class="w-[200px] h-[290px] md:w-[290px] md:h-[420px] bg-black rounded-[20px] overflow-hidden absolute bottom-0 left-0">
                             <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="h-full min-w-full min-h-full object-cover object-center">
                         </div>
                     </div>
