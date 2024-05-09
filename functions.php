@@ -522,6 +522,7 @@ function add_custom_admin_bar_styles() {
             #toplevel_page_weglot-settings { display: none !important; }
             #toplevel_page_gf_edit_forms { display: none !important; }
             #woocommerce_dashboard_recent_reviews { display: none !important; }
+            .updated { display: none !important; }
             /* Voeg hier meer CSS-styling toe indien nodig */
         ";
 
