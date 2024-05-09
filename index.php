@@ -9,7 +9,7 @@
 get_header(); ?>
 
 
-<main>
+<main class="overflow-x-hidden">
     <?php the_content(); ?>
 </main>
 

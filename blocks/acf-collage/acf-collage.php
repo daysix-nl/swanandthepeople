@@ -4,7 +4,7 @@ if (isset($block['data']['preview_image_help'])): ?>
     <?php
 else: ?>
 <!-- COLLAGE -->
-<section class="bg-white <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
+<section class="<?php echo get_field('achtergrond');?> <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
     <?php if (get_field('titel')): ?> 
     <div class="container text-center mb-[30px]">
         <h2 class="text-36 leading-36 text-[#5D7365] font-crimson font-normal"><?php echo get_field('titel');?></h2>

@@ -8,7 +8,7 @@
 
 <footer>
 
-    <section class="bg-[#f9f9f9] py-[80px] mt-[80px]">
+    <section class="bg-[#f9f9f9] py-[80px]">
         <div class="container flex flex-wrap lg:flex-nowrap justify-between">
             <!-- ABOUT -->
             <div class="w-full md:w-[447px] lg:w-[368px] xl:w-[409px] order-1 md:order-1 lg:order-1">

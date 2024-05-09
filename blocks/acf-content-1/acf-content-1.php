@@ -15,7 +15,7 @@ $link_text = isset($link['title']) ? esc_html($link['title']) : '';
 $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 ?>
 <!-- CONTENT 1 -->
-<section class="bg-white <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
+<section class="<?php echo get_field('achtergrond');?> <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
     <!-- IF STATEMENT VOOR FIELD -->
     <?php if (get_field('uitlijning') === "links"): ?>   
         <section>

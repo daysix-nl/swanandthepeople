@@ -3,6 +3,32 @@
     "title": "Padding",
     "fields": [
         {
+            "key": "field_663c8a978c24d",
+            "label": "Achtergrond",
+            "name": "achtergrond",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "bg-white": "Wit",
+                "bg-[#f9f9f9]": "Zachtgrijs"
+            },
+            "default_value": "bg-white",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
             "key": "field_663bc488f5c25",
             "label": "Witruimte bovenkant",
             "name": "witruimte_bovenkant",
@@ -83,6 +109,13 @@
                 "operator": "==",
                 "value": "acf\/acf-collage"
             }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-instagram"
+            }
         ]
     ],
     "menu_order": 99,
@@ -94,5 +127,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1715198560
+    "modified": 1715243912
 }
