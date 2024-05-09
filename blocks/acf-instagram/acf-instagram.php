@@ -32,7 +32,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 <!-- INSTAGRAM -->
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
     <div class="h-full lg:h-[418px] xl:h-[470px] bg-[#5D7365] grid lg:flex justify-end relative overflow-hidden">
-        <div class="h-full w-screen lg:w-[calc(50%-345px)] xl:w-[calc(50%-390px)] relative overflow-hidden order-2">
+        <div class="h-full max-h-[500px] md:max-h-[unset] w-screen lg:w-[calc(50%-345px)] xl:w-[calc(50%-390px)] relative overflow-hidden order-2">
             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center-top">
         </div>
         <div class="lg:absolute top-0 left-0 right-0 bottom-0 order-1 z-[2]">
