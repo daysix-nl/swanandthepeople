@@ -116,6 +116,27 @@
                 "operator": "==",
                 "value": "acf\/acf-instagram"
             }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-content-3"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-afbeelding"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-faq"
+            }
         ]
     ],
     "menu_order": 99,
@@ -127,5 +148,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1715243912
+    "modified": 1715600684
 }

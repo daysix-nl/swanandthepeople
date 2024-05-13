@@ -1,0 +1,56 @@
+.accordion-item {
+    background-color: #5D7365;
+    border: 1px solid #5D7365;
+    border-radius: 20px;
+
+
+    .accordion {
+        background-color: #5D7365;
+        cursor: pointer;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        transition-delay: .2s;
+        transition-property: border-radius, background-color, color;
+        transition-duration: .2s;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        position: relative;
+
+
+        &::after {
+            content: url('/wp-content/themes/swanandthepeople/img/local/arrow.svg');
+            position: absolute;
+            right: 30px;
+            transform: translateY(-50%);
+            top: 33.7px;
+            transition-duration: 0.3s;
+
+            @media (min-width: 768px) {
+                right: 20px;
+            }
+
+            @media (min-width: 1280px) {
+                right: 25px;
+            }
+        }
+
+        &.active {
+
+            &::after {
+                content: url('/wp-content/themes/swanandthepeople/img/local/arrow-out.svg');
+                transition-duration: 0.3s;
+
+            }
+        }
+    }
+
+    .panel {
+        border-radius: 0px;
+        overflow: hidden;
+        height: 0;
+        transition: height .2s ease-out;
+    }
+}

@@ -36,7 +36,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                     </div>
                 </div>
                 <div class="lg:w-[50%] order-2">
-                    <div class="px-[15px] md:px-[25px] lg:px-[55px] max-w-[800px] mx-auto mt-[30px] lg:mt-[unset]">
+                    <div class="px-[15px] md:px-[25px] lg:px-[55px] max-w-[360px] md:max-w-[800px] mx-auto mt-[30px] lg:mt-[unset]">
                         <h2 class="text-36 leading-36 text-[#5D7365] font-crimson font-normal text-center"><?php echo get_field('titel');?></h2>
                          <?php if (get_field('subtitel')): ?> 
                             <h3 class="text-22 leading-22 text-[#5D7365] font-crimson font-normal mt-[15px] text-center"><?php echo get_field('subtitel');?></h3>
@@ -55,7 +55,7 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
      <section class="md:container">
         <div class="w-full flex flex-col lg:flex-row lg:items-center">
             <div class="lg:w-[50%] order-2 lg:order-1">
-                <div class="px-[15px] md:px-[25px] lg:px-[55px] max-w-[800px] mx-auto mt-[30px] lg:mt-[unset]">
+                <div class="px-[15px] md:px-[25px] lg:px-[55px] max-w-[360px] md:max-w-[800px] mx-auto mt-[30px] lg:mt-[unset]">
                     <h2 class="text-36 leading-36 text-[#5D7365] font-crimson font-normal text-center"><?php echo get_field('titel');?></h2>
                     <?php if (get_field('subtitel')): ?> 
                         <h3 class="text-22 leading-22 text-[#5D7365] font-crimson font-normal mt-[15px] text-center"><?php echo get_field('subtitel');?></h3>

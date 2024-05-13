@@ -22,7 +22,7 @@ else: ?>
             ?>
             <div class="swiper-slide w-full overflow-hidden h-[60vh] relative min-h-[500px]">
                 <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center-center" />
-                <div class="h-full w-full flex justify-center items-center absolute top-0 left-0 right-0 bottom-0">
+                <div class="h-full w-full flex justify-center items-center absolute top-0 left-0 right-0 bottom-0 bg-[#00000017]">
                     <div class="text-center w-[360px] md:w-[600px] mx-auto mb-[40px]">
                         <h2 class="text-[42px] leading-42 text-[#fff] font-crimson font-normal"><?php echo get_sub_field('titel');?></h2>
                         <?php if (get_sub_field('tekst')): ?>   

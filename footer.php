@@ -50,11 +50,21 @@
             <div class="md:w-[243px] lg:w-[224px] xl:w-[238px] md:order-2 lg:order-2 hidden md:block">
                 <h3 class="font-normal text-22 leading-30 text-[#5D7365] mb-[20px]">Menu</h3>
                 <div class="grid">
-                    <a href="" class="font-normal text-15 leading-30 text-[#525252] w-fit">Over mij</a>
-                    <a href="" class="font-normal text-15 leading-30 text-[#525252] w-fit">Contact</a>
-                    <a href="" class="font-normal text-15 leading-30 text-[#525252] w-fit">Veel gestelde vragen</a>
-                    <a href="" class="font-normal text-15 leading-30 text-[#525252] w-fit">Hoe anderen het dragen</a>
-                    <a href="" class="font-normal text-15 leading-30 text-[#525252] w-fit">Retourbeleid</a>
+                    <?php
+                    if( have_rows('hoofdmenu', 'option') ):
+                        while( have_rows('hoofdmenu', 'option') ) : the_row(); ?>
+                        <?php
+                        $link = get_sub_field('hoofdmenu_link', 'option');
+                        $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                        $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                        $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                        ?>
+                        <a href="<?php echo $link_url; ?>" class="font-normal text-15 leading-30 text-[#525252] w-fit" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                        <?php
+                        endwhile;
+                    else :
+                    endif;
+                    ?>
                 </div>
             </div>
             <!-- LEGAL -->

@@ -83,12 +83,21 @@
             ?>
         </div>
         <div class="grid grid-cols-2 border-t-[1px] border-[#e5e5e5] pt-[30px] pb-[50px]">
-            <a href="/shop" class="text-14 leading-34 text-center text-[#5D7365]">Shop</a>
-            <a href="" class="text-14 leading-34 text-center text-[#5D7365]">Veel gestelde vragen</a>
-            <a href="" class="text-14 leading-34 text-center text-[#5D7365]">Over mij</a>
-            <a href="" class="text-14 leading-34 text-center text-[#5D7365]">How they wear it</a>
-            <a href="" class="text-14 leading-34 text-center text-[#5D7365]">Contact</a>
-            <a href="" class="text-14 leading-34 text-center text-[#5D7365]">Mijn favorieten</a>
+            <?php
+            if( have_rows('hoofdmenu', 'option') ):
+                while( have_rows('hoofdmenu', 'option') ) : the_row(); ?>
+                <?php
+                $link = get_sub_field('hoofdmenu_link', 'option');
+                $link_url = isset($link['url']) ? esc_url($link['url']) : '';
+                $link_text = isset($link['title']) ? esc_html($link['title']) : '';
+                $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
+                ?>
+                <a href="<?php echo $link_url; ?>" class="text-14 leading-34 text-center text-[#5D7365]" target="<?php echo $link_target; ?>"><?php echo $link_text; ?></a>
+                <?php
+                endwhile;
+            else :
+            endif;
+            ?>
         </div>
     </div>
 </div>
