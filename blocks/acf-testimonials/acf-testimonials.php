@@ -31,6 +31,7 @@ else: ?>
                                 </div>
                                 <div class="grid mr-[110px] md:mr-[unset]">
                                     <h3 class="text-22 leading-22 text-[#5D7365] font-crimson font-normal"><?php echo get_sub_field('naam');?></h3>
+                                    <?php if (get_sub_field('product')): ?>   
                                     <?php
                                         $current_product_id = get_sub_field('product'); // ID van het geselecteerde bericht
                                         $product_post = get_post($current_product_id); // Het bericht ophalen
@@ -43,6 +44,7 @@ else: ?>
                                         <?php
                                         }
                                     ?>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
