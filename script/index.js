@@ -130,3 +130,18 @@ try {
         });
     }
 } catch (error) { }
+
+try {
+    var swiper = new Swiper(".mySwiperTestimonials", {
+        effect: "fade",
+        grabCursor: true,
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".slider-2-next",
+            prevEl: ".slider-2-prev",
+        },
+    });
+} catch (error) { }

@@ -1,0 +1,77 @@
+{
+    "key": "group_66435081cea63",
+    "title": "Padding (zonder achtergrond)",
+    "fields": [
+        {
+            "key": "field_66435081d014c",
+            "label": "Witruimte bovenkant",
+            "name": "witruimte_bovenkant",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "padding-top-true": "Aan",
+                "padding-top-false": "Uit"
+            },
+            "default_value": "padding-top-false",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_66435081d014e",
+            "label": "Witruimte onderkant",
+            "name": "witruimte_onderkant",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "padding-bottom-true": "Aan",
+                "padding-bottom-false": "Uit"
+            },
+            "default_value": "padding-bottom-false",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/acf-testimonials"
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1715687579
+}

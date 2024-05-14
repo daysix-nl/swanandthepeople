@@ -54,3 +54,9 @@
         transition: height .2s ease-out;
     }
 }
+
+.testimonial-blur {
+    background: rgba(249, 249, 249, 0.7);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+}
