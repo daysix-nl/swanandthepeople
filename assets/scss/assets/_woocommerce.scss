@@ -130,7 +130,7 @@ button.update-cart {
     position: relative !important;
     align-content: center !important;
     align-items: center !important;
-    border-radius: 20px !important;
+    border-radius: 99px !important;
     background-color: #5D7365 !important;
     font-family: Plus Jakarta Sans, sans-serif !important;
     font-weight: 700 !important;
@@ -612,4 +612,59 @@ button.update-cart {
 
 .wvs-style-rounded li:last-of-type {
     margin-right: 0px !important;
+}
+
+.woocommerce-message {
+    border-top-color: transparent !important;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+    padding: 10px 0px !important;
+    position: relative;
+    background-color: transparent !important;
+    color: #515151;
+    border-top: 0px solid transparent !important;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+
+    max-width: 360px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+
+    // MD
+    @media (min-width: 768px) {
+        max-width: 691px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    // LG
+    @media (min-width: 1200px) {
+        max-width: 1110px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    // XL
+    @media (min-width: 1352px) {
+        max-width: 1250px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    a {
+        display: none !important;
+    }
+}
+
+.woocommerce-message::before {
+    display: none !important;
+}
+
+.woocommerce-error::before {
+    display: none !important;
 }

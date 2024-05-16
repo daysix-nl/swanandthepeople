@@ -20,7 +20,7 @@ global $product;
 
 	
 	
-    <button type="submit" class="h-[45px] bg-[#5D7365] rounded-[20px] font-jakarta font-bold text-white text-15 xl:text-16 w-full lg:w-[305px] xl:w-[370px] flex items-center justify-center alt<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ); ?>">Voeg toe</button>
+    <button type="submit" class="h-[45px] bg-[#5D7365] rounded-[99px] font-jakarta font-bold text-white text-15 xl:text-16 w-full lg:w-[305px] xl:w-[370px] flex items-center justify-center alt<?php echo esc_attr( wc_wp_theme_get_element_class_name( 'button' ) ? ' ' . wc_wp_theme_get_element_class_name( 'button' ) : '' ); ?>">Voeg toe</button>
 			
 	<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 
