@@ -60,3 +60,14 @@
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
 }
+
+.tabs button.active-button {
+    background: #f9f9f9;
+    font-weight: 700;
+    text-decoration: underline;
+
+    @media (min-width: 768px) {
+        font-weight: 400;
+        text-decoration: none;
+    }
+}

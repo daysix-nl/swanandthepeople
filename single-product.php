@@ -120,7 +120,7 @@ if ( post_password_required() ) {
             <div class="w-full lg:w-[515px] xl:w-[585px]">
                 <h1 class="text-36 leading-42 text-[#5D7365] font-normal mt-[40px] lg:mt-[25px]"><?php the_title();?></h1>
                 <p class="text-18 leading-18 text-[#5D7365] font-normal mt-[10px]"><?php echo $product->get_price_html(); ?></p>
-                <p class="text-14 leading-25 text-[#525252] mt-[40px] md:mr-[40px]"><?php echo get_the_content();?></p>
+                <p class="text-14 leading-25 text-[#525252] mt-[40px] md:mr-[40px]"><?php echo get_the_excerpt(); ?></p>
                 <hr class="my-[30px]">
                 <div class="flex flex-wrap items-start space-x-2">
                     <div class="w-[40px]">
@@ -185,7 +185,40 @@ if ( post_password_required() ) {
                 </div>
             </div>
         </div>
-   </section>
+    </section>
+
+
+    <section>
+        <div class="container padding-top-true padding-bottom-true">
+                <div class="w-full lg:max-w-[956px] xl:max-w-[1080px] mx-auto rounded-[20px] overflow-hidden tabs bg-[#f9f9f9] md:bg-white">
+                    <div class="flex flex-col md:flex-row pt-[15px] md:pt-[unset]">
+                        <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px] active-button" onclick="openTab(event, 'tab1')">Product omschrijving</button>
+                        <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px]" onclick="openTab(event, 'tab2')">Verzending & retouren</button>
+                        <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px]" onclick="openTab(event, 'tab3')">Beoordelingen</button>
+                    </div>
+                    <div id="tab1" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4">
+                        <h2 class="font-normal text-22 leading-30 text-[#5D7365] font-crimson mb-2">Product omschrijving</h2>
+                        <div class="font-normal text-15 leading-30 text-[#525252] text-editor"><?php echo get_the_content();?></div>
+                    </div>
+                    <div id="tab2" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4 hidden">
+                        <h2 class="font-normal text-22 leading-30 text-[#5D7365] mb-2">Verzending & retouren</h2>
+                        <div class="font-normal text-15 leading-30 text-[#525252] text-editor"><?php echo get_field('verzending_&_retouren', 'option');?></div>
+                    </div>
+                     <div id="tab3" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4 hidden">
+                        <h2 class="font-normal text-22 leading-30 text-[#5D7365] mb-2">Beoordelingen</h2>
+                        <div class="font-normal text-15 leading-30 text-[#525252]">Er zijn momenteel geen beoordelingen beschikbaar.
+                           
+
+
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+
+
 </main>
 
 
