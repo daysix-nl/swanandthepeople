@@ -139,7 +139,7 @@ try {
         loop: true,
         autoplay: {
             delay: 4000,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
         },
         navigation: {
             nextEl: ".slider-2-next",
