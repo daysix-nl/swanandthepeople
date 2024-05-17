@@ -224,7 +224,6 @@ if ( post_password_required() ) {
                     <div class="flex flex-col md:flex-row pt-[15px] md:pt-[unset]">
                         <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px] active-button" onclick="openTab(event, 'tab1')">Product omschrijving</button>
                         <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px]" onclick="openTab(event, 'tab2')">Verzending & retouren</button>
-                        <button class="text-18 leading-18 text-[#5D7365] font-crimson pt-[15px] pb-[15px] px-[40px] flex justify-center items-center rounded-t-[20px]" onclick="openTab(event, 'tab3')">Beoordelingen</button>
                     </div>
                     <div id="tab1" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4">
                         <h2 class="font-normal text-22 leading-30 text-[#5D7365] font-crimson mb-2">Product omschrijving</h2>
@@ -233,10 +232,6 @@ if ( post_password_required() ) {
                     <div id="tab2" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4 hidden">
                         <h2 class="font-normal text-22 leading-30 text-[#5D7365] mb-2">Verzending & retouren</h2>
                         <div class="font-normal text-15 leading-30 text-[#525252] text-editor"><?php echo get_field('verzending_&_retouren', 'option');?></div>
-                    </div>
-                     <div id="tab3" class="tabcontent bg-[#f9f9f9] p-[25px] md:p-4 hidden">
-                        <h2 class="font-normal text-22 leading-30 text-[#5D7365] mb-2">Beoordelingen</h2>
-                        <div class="font-normal text-15 leading-30 text-[#525252]">Er zijn momenteel geen beoordelingen beschikbaar.</div>
                     </div>
                 </div>
         </div>

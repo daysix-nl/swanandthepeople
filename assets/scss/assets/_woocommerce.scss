@@ -668,3 +668,13 @@ button.update-cart {
 .woocommerce-error::before {
     display: none !important;
 }
+
+
+.custom-checkout {
+
+    .woocommerce-order-details,
+    .woocommerce-customer-details,
+    .woocommerce-notice {
+        display: none !important;
+    }
+}

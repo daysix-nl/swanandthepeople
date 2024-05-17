@@ -2,6 +2,7 @@
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 0,
     effect: "fade",
+    loop: true,
     autoplay: {
         delay: 4000,
         disableOnInteraction: false,
@@ -135,6 +136,7 @@ try {
     var swiper = new Swiper(".mySwiperTestimonials", {
         effect: "fade",
         grabCursor: true,
+        loop: true,
         autoplay: {
             delay: 4000,
             disableOnInteraction: false,
@@ -160,3 +162,32 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).classList.remove("hidden");
     evt.currentTarget.classList.add("active-button");
 }
+
+
+
+try {
+    var swiperHero = new Swiper(".swiperhero", {
+        spaceBetween: 40,
+        lazy: false,
+        freeMode: true,
+        loop: true,
+        speed: 250000,
+
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+        slidesPerView: "auto",
+        breakpoints: {
+            640: {
+                speed: 250000,
+            },
+            768: {
+                speed: 250000,
+            },
+            1024: {
+                speed: 250000,
+            },
+        },
+    });
+} catch (error) { }

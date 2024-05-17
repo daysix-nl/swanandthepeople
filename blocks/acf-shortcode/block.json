@@ -1,0 +1,27 @@
+{
+  "name": "acf-shortcode",
+  "title": "Shortcode",
+  "description": "",
+  "category": "bibliotheek",
+  "icon": "shortcode",
+  "keywords": [
+    "block"
+  ],
+  "supports": {
+    "mode": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "acf-shortcode.php"
+  },
+  "example": {
+    "attributes": {
+      "mode": "preview",
+      "data": {
+        "preview_image_help": "/wp-content/themes/swananthepeople/img/local/leeg.png",
+        "is_preview": true
+      }
+    }
+  }
+}
