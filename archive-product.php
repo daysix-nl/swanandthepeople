@@ -22,7 +22,7 @@ defined( 'ABSPATH' ) || exit;
 get_header( 'shop' ); ?>
 
 <main>
-    <div class="container mt-[20px]">
+    <div class="container mt-[20px] padding-bottom-true">
 
         <?php do_action('woocommerce_before_shop_loop'); ?>
         <div class="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-[10px] md:gap-x-[20px] lg:gap-x-[30px] gap-y-[40px]">
