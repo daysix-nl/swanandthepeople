@@ -16,7 +16,7 @@
                     
                     <p class="font-normal text-15 leading-30 text-[#525252]">Bij Swan and the People moedigen we moeders aan om stil te staan, te reflecteren en zichzelf te omarmen in deze bijzondere fase van hun leven. We willen dat ze met vertrouwen en vreugde de volgende stap zetten in hun reis als moeder én als vrouw.</p>
                     <div class="w-[101px] justify-between items-center mt-[35px] md:mt-[75px] flex md:hidden lg:flex">
-                        <a href="" class="h-[15px] xl:h-[17px]">
+                        <a href="https://www.instagram.com/swanandthepeople/" target="_blank" class="h-[15px] xl:h-[17px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100%" viewBox="0 0 17.053 17.053">
                                 <g id="instagram-svgrepo-com" transform="translate(-1 -1)">
                                     <path id="Path_587" data-name="Path 587" d="M10.651,15.3A4.651,4.651,0,1,0,6,10.651,4.651,4.651,0,0,0,10.651,15.3Zm0-1.55a3.1,3.1,0,1,0-3.1-3.1A3.1,3.1,0,0,0,10.651,13.751Z" transform="translate(-1.124 -1.124)" fill="#121212" fill-rule="evenodd"/>
@@ -25,23 +25,19 @@
                                 </g>
                             </svg>
                         </a>
-                        <a href="" class="h-[15px] xl:h-[17px]">
+                        <a href="https://www.facebook.com/Swan-and-the-people-104149948182146" target="_blank" class="h-[15px] xl:h-[17px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100%" viewBox="0 0 9.372 17.326">
                                 <path id="facebook-svgrepo-com" d="M19.422,5l-2.6,0a3.946,3.946,0,0,0-4.156,4.265v1.965H10.05v3.556h2.612l0,7.541h3.655l0-7.541h3l0-3.555h-3V9.564c0-.8.19-1.207,1.233-1.207h1.863L19.422,5Z" transform="translate(-10.05 -5.001)" fill="#121212"/>
                             </svg>
                         </a>
-                        <a href="" class="h-[15px] xl:h-[17px]">
+                        <a href="https://nl.pinterest.com/zwaantjeharms/_created/" target="_blank" class="h-[15px] xl:h-[17px]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100%" viewBox="0 0 13.291 17.084">
                                 <g id="_7935ec95c421cee6d86eb22ecd12951c" data-name="7935ec95c421cee6d86eb22ecd12951c" transform="translate(-57.232 -0.5)">
                                     <path id="Path_590" data-name="Path 590" d="M62.7,11.8c-.449,2.352-1,4.607-2.619,5.785-.5-3.555.735-6.225,1.31-9.059-.979-1.648.118-4.965,2.183-4.148,2.541,1.005-2.2,6.128.982,6.767,3.323.668,4.68-5.766,2.62-7.859C64.193.265,58.5,3.218,59.2,7.543c.17,1.057,1.263,1.378.437,2.838-1.906-.423-2.474-1.926-2.4-3.93A6.412,6.412,0,0,1,63.023.558c3.589-.4,6.957,1.317,7.422,4.693.524,3.811-1.62,7.937-5.457,7.64A4.651,4.651,0,0,1,62.7,11.8Z" transform="translate(0)" fill="#121212"/>
                                 </g>
                             </svg>
                         </a>
-                        <a href="" class="h-[15px] xl:h-[17px]">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="auto" height="100%" viewBox="0 0 14.773 17">
-                                <path id="tiktok-svgrepo-com" d="M10.729,1.018C11.657,1,12.578,1.011,13.5,1A4.4,4.4,0,0,0,14.74,3.959h0a4.972,4.972,0,0,0,2.988,1.267h.016V8.082a7.555,7.555,0,0,1-3.022-.707l.046.019a8.722,8.722,0,0,1-1.178-.678l.029.019c-.007,2.069.007,4.137-.014,6.2a5.393,5.393,0,0,1-.968,2.809l.011-.018A5.281,5.281,0,0,1,8.47,18H8.462c-.07,0-.152.005-.235.005a5.143,5.143,0,0,1-2.679-.748l.023.013a5.355,5.355,0,0,1-2.584-4.022l0-.023c-.014-.354-.021-.709-.007-1.056A5.339,5.339,0,0,1,8.285,7.363a5.4,5.4,0,0,1,.909.077l-.032,0c.014,1.048-.028,2.1-.028,3.145a2.388,2.388,0,0,0-.805-.137,2.432,2.432,0,0,0-2.293,1.622l-.005.017a2.751,2.751,0,0,0-.119.808,2.9,2.9,0,0,0,.021.346v-.014a2.415,2.415,0,0,0,2.382,2.035l.1,0H8.411a2.38,2.38,0,0,0,1.956-1.13l.006-.01a1.62,1.62,0,0,0,.29-.743v-.008c.071-1.268.043-2.529.049-3.8.007-2.855-.007-5.7.014-8.551Z" transform="translate(-2.97 -1.004)" fill="#121212"/>
-                            </svg>
-                        </a>
+                        
                     </div>
                 </div> 
                 <hr class="my-[35px] border-[#DDDDDD] md:hidden"></hr> 
@@ -113,7 +109,7 @@
             <!-- LATAST NEWS -->
             <div class="w-full md:w-[447px] lg:w-[282px] xl:w-[346px] order-2 md:order-3 lg:order-4 md:mt-[42px] lg:mt-[unset]">
                 <h3 class="font-normal text-22 leading-30 text-[#5D7365] mb-[20px]">Volg onze nieuwsbrief!</h3>
-                <p class="font-normal text-15 leading-30 text-[#525252] max-w-[300px]">Meld je aan voor onze nieuwsbrief en ontvang 10% korting.</p>
+                <p class="font-normal text-15 leading-30 text-[#525252] max-w-[300px]">Meld je aan voor onze nieuwsbrief en ga met ons op reis naar bewust moederschap.</p>
             </div>
         </div>
     </section>

@@ -20,11 +20,13 @@ else: ?>
                 $image_url = isset($image['url']) ? esc_url($image['url']) : '';
                 $image_alt = isset($image['alt']) ? esc_attr($image['alt']) : '';
                 ?>
-                <div class="swiper-slide">
-                    <div class="w-full aspect-[11/16] rounded-[20px] relative overflow-hidden slide-item">
-                        <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="min-w-full min-h-full object-cover">
+                <div href="" class="swiper-slide">
+                    <div class="w-full aspect-[10/16] md:aspect-[10/16] rounded-[20px] relative overflow-hidden slide-item">
+                        <a href="<?php echo get_sub_field('hoofdlink');?>">
+                            <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="min-w-full min-h-full object-cover">
+                        </a>
                         <div class="absolute left-0 top-0 right-0 top-unset z-[2]">
-                            <div class="w-[70%] mx-auto h-[90px] bg-white rounded-b-[20px] flex items-center justify-center">
+                            <div class="w-[70%] mx-auto h-[70px] bg-white rounded-b-[20px] flex items-center justify-center">
                                 <div class="">
                                     <?php
                                     $current_product_id = get_sub_field('categorie');
@@ -32,7 +34,7 @@ else: ?>
                                     if ($category) :
                                     ?>
                                         <h3 class="text-[#5D7365] text-20 leading-26 font-normal text-center"><?php echo esc_html($category->name); ?></h3>
-                                        <div class="flex flex-wrap w-[155px] mx-auto mt-[5px] md:mt-[10px] justify-center space-x-[10px]">
+                                        <div class="flex flex-wrap w-[155px] mx-auto mt-[5px] md:mt-[5px] justify-center space-x-[10px]">
                                             <?php
                                             $args = array(
                                                 'post_type' => 'product',

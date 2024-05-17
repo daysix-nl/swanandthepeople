@@ -18,7 +18,7 @@
     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <title><?php bloginfo( 'name' ); ?></title>
+     <title><?php wp_title( '|', true, 'right' ); ?></title>
     <?php wp_head(); ?>
 </head>
 <body <?php body_class( 'page-block menu-non-active' ); ?>>

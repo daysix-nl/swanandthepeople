@@ -95,6 +95,30 @@
                     "multiple": 0,
                     "bidirectional_target": [],
                     "parent_repeater": "field_663bb9adaf640"
+                },
+                {
+                    "key": "field_66479e1e6f91b",
+                    "label": "Hoofdlink",
+                    "name": "hoofdlink",
+                    "aria-label": "",
+                    "type": "page_link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "post_type": [
+                        "product"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "allow_archives": 0,
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "parent_repeater": "field_663bb9adaf640"
                 }
             ]
         }
@@ -117,5 +141,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1715192311
+    "modified": 1715969613
 }
