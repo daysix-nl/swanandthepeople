@@ -23,7 +23,7 @@ else: ?>
                 <div href="" class="swiper-slide">
                     <div class="w-full aspect-[10/16] md:aspect-[10/16] rounded-[20px] relative overflow-hidden slide-item">
                         <a href="<?php echo get_sub_field('hoofdlink');?>">
-                            <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="min-w-full min-h-full object-cover">
+                            <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-w-full min-h-full object-cover">
                         </a>
                         <div class="absolute left-0 top-0 right-0 top-unset z-[2]">
                             <div class="w-[70%] mx-auto h-[75px] bg-white rounded-b-[20px] flex items-center justify-center">
