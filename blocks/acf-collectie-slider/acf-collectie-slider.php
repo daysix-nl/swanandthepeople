@@ -26,14 +26,17 @@ else: ?>
                             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="min-w-full min-h-full object-cover">
                         </a>
                         <div class="absolute left-0 top-0 right-0 top-unset z-[2]">
-                            <div class="w-[70%] mx-auto h-[70px] bg-white rounded-b-[20px] flex items-center justify-center">
+                            <div class="w-[70%] mx-auto h-[75px] bg-white rounded-b-[20px] flex items-center justify-center">
                                 <div class="">
                                     <?php
                                     $current_product_id = get_sub_field('categorie');
                                     $category = get_term_by('id', $current_product_id, 'product_cat');
                                     if ($category) :
                                     ?>
-                                        <h3 class="text-[#5D7365] text-20 leading-26 font-normal text-center"><?php echo esc_html($category->name); ?></h3>
+                                        <h3 class="text-[#5D7365] text-18 leading-22 font-normal text-center"><?php echo esc_html($category->name); ?></h3>
+                                        <?php if (get_sub_field('prijs')): ?>   
+                                        <p class="text-12 leading-12 text-[#525252] text-center">€ <?php echo get_sub_field('prijs');?></p>
+                                        <?php endif; ?>
                                         <div class="flex flex-wrap w-[155px] mx-auto mt-[5px] md:mt-[5px] justify-center space-x-[10px]">
                                             <?php
                                             $args = array(

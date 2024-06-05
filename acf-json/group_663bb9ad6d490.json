@@ -97,6 +97,27 @@
                     "parent_repeater": "field_663bb9adaf640"
                 },
                 {
+                    "key": "field_66601cb66802d",
+                    "label": "Prijs",
+                    "name": "prijs",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "00,00",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "€",
+                    "append": "",
+                    "parent_repeater": "field_663bb9adaf640"
+                },
+                {
                     "key": "field_66479e1e6f91b",
                     "label": "Hoofdlink",
                     "name": "hoofdlink",
@@ -141,5 +162,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1715969613
+    "modified": 1717574865
 }
