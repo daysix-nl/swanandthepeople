@@ -20,6 +20,17 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
      <title><?php wp_title( '|', true, 'right' ); ?></title>
     <?php wp_head(); ?>
+    <!-- Google tag (gtag.js) -->
+        <script async src=“https://www.googletagmanager.com/gtag/js?id=AW-10787052814”></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag(‘js’, new Date());
+        gtag(‘config’, ‘AW-10787052814’);
+        </script>
+        <meta name="google-site-verification" content="UHswWo0dBE3_vU2LMogSN_cwl4_w-GkIt4nLqElQDjI" />
+        <meta name="p:domain_verify" content="daae26e3be27255ff34d1a8669abc809"/>
+        <meta name="facebook-domain-verification" content="eju0zct2uks7dmp7sieimnr9i5pc35" />
 </head>
 <body <?php body_class( 'page-block menu-non-active' ); ?>>
 <header class="fixed top-0 left-0 right-0 z-[9999]">
