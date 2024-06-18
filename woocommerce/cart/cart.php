@@ -257,7 +257,7 @@ if ($product_count < 2) { ?>
                     </svg>
                 </button>  
 				 <div class="h-auto aspect-[16/8] rounded-t-[20px] overflow-hidden mb-[25px] lg:mb-2">
-                    <img class="min-w-full min-h-full object-cover object-top" src="https://swanandthepeople.com/wp-content/uploads/2024/04/IMG_4705-1-scaled.jpg" alt="">
+                    <img class="min-w-full min-h-full object-cover object-center" src="https://swanandthepeople.com/wp-content/uploads/2024/04/IMG_4705-1-scaled.jpg" alt="">
                 </div>
                 <h2 class="text-30 leading-30 md:text-36 md:leading-36 text-[#5D7365] font-normal text-center md:max-w-[404px] lg:max-w-[473px] xl:max-w-[531px] mx-auto mb-[15px]">Bestel meer items <br> en ontvang 10% korting</h2>
                 <div class="text-14 leading-25 text-[#525252] pb-[30px] mx-auto text-center max-w-[301px] md:max-w-[395px] lg:max-w-[484px] text-editor">Als je twee of meer producten toevoegt aan je winkelwagen, ontvang je automatisch 10% bundelkorting op het totaalbedrag. </div>

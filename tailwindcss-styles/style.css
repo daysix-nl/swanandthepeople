@@ -1341,10 +1341,6 @@ video {
   -o-object-position: center;
      object-position: center;
 }
-.object-top {
-  -o-object-position: top;
-     object-position: top;
-}
 .p-0 {
   padding: 0;
 }
