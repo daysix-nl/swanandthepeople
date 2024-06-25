@@ -564,6 +564,9 @@ video {
     padding-right: 0px;
   }
 }
+.static {
+  position: static;
+}
 .fixed {
   position: fixed;
 }
