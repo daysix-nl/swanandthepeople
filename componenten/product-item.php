@@ -15,7 +15,7 @@
                     <?php endif; ?>
                 </div>
             </div>
-            <h3 class="text-[#5D7365] text-22 leading-32 font-normal mt-[8px] text-center max-w-[130px] mx-auto"><?php the_title(); ?></h3>
+            <h3 class="text-[#5D7365] text-22 leading-32 font-normal mt-[8px] text-center max-w-[150px] mx-auto"><?php the_title(); ?></h3>
             <div class="text-[#525252] font-jakarta text-15 leading-24 font-normal md:mt-[1px] relative overflow-hidden text-center"><?php echo $product->get_price_html(); ?>
                 <div class="absolute selectoption normal-case h-[25px] bg-white w-full underline">Selecteer een maat</div>
             </div>

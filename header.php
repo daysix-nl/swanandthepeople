@@ -41,7 +41,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </script>
   
 </head>
-<body <?php body_class( 'page-block menu-non-active' ); ?> 
+<body <?php body_class( 'page-block menu-non-active maattabel-close' ); ?> 
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2LGQRWX"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -191,3 +191,17 @@ try {
         },
     });
 } catch (error) { }
+
+
+
+try {
+    document.getElementById('maattabel').addEventListener('click', function () {
+        document.body.classList.toggle('maattabel-open');
+        document.body.classList.toggle('maattabel-close');
+    });
+
+    document.getElementById('close').addEventListener('click', function () {
+        document.body.classList.toggle('maattabel-open');
+        document.body.classList.toggle('maattabel-close');
+    });
+} catch (error) { }

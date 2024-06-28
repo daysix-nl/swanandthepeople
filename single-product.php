@@ -182,8 +182,6 @@ if ( post_password_required() ) {
                     <?php
                     }
                     ?>
-               
-                
                 <div class="grid gap-[12px] mt-[40px]">
                     <div class="flex items-center">
                         <div class="w-[35px]">

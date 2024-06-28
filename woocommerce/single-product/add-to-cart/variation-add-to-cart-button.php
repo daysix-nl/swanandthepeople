@@ -11,7 +11,7 @@ defined( 'ABSPATH' ) || exit;
 
 global $product;
 ?>
-<a href="/" class="text-14 leading-25 text-[#525252] mb-[30px] block underline">Bekijk hier onze maattabel</a>
+<div id="maattabel" class="text-14 leading-25 text-[#525252] mb-[30px] block underline cursor-pointer">Bekijk hier onze maattabel</div>
 <div class="woocommerce-variation-add-to-cart variations_button">
 	 <div class="flex w-full justify-between">
 	<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
@@ -30,4 +30,17 @@ global $product;
 
         
         </div>
+</div>
+
+
+
+<div id="tabel" class="fixed top-0 left-0 right-0 bottom-0 bg-[#00000099] z-[9999]">
+	<div class="h-full w-full flex justify-center items-center">
+		<div class="tab">
+			<div class="flex justify-end"><p id="close" class="text-white cursor-pointer">Sluiten</p></div>
+			<div class="w-[calc(100vw-40px)] md:w-[600px] bg-white pb-[15px] mt-[8px] rounded-[10px] overflow-hidden">
+				<img src="https://swanandthepeople.com/wp-content/uploads/2024/06/maattabel.png" alt="">
+			</div>
+		</div>
+	</div>
 </div>
