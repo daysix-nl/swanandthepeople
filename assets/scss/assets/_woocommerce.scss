@@ -720,3 +720,8 @@ button.update-cart {
 .notice .woocommerce-form-coupon-toggle {
     display: none;
 }
+
+.woo-variation-swatches .wvs-style-rounded.variable-items-wrapper .variable-item:not(.radio-variable-item) .variable-item-span,
+.woo-variation-swatches .wvs-style-rounded.variable-items-wrapper .variable-item:not(.radio-variable-item) img {
+    font-size: 10px !important;
+}

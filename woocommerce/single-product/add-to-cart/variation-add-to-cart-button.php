@@ -39,7 +39,7 @@ global $product;
 		<div class="tab">
 			<div class="flex justify-end"><p id="close" class="text-white cursor-pointer">Sluiten</p></div>
 			<div class="w-[calc(100vw-40px)] md:w-[600px] bg-white pb-[15px] mt-[8px] rounded-[10px] overflow-hidden">
-				<img src="https://swanandthepeople.com/wp-content/uploads/2024/06/maattabel.png" alt="">
+				<img src="https://swanandthepeople.com/wp-content/uploads/2024/06/maattabel.png" alt="" class="w-full h-auto">
 			</div>
 		</div>
 	</div>
