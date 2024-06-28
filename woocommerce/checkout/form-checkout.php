@@ -84,7 +84,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 
             </div>
             <div class="w-full lg:max-w-[337px] xl:max-w-[381px] hidden lg:block h-auto">
-                <div class="sticky top-[143px] xl:top-[143px]">
+                <div class="sticky top-[0px] xl:top-[0px]">
                     <?php include get_template_directory() . '/componenten/side-cart-checkout.php'; ?>
                     <a href="/cart" class="text-14 leading-25 text-[#525252] mb-[30px] block underline w-full text-center">Winkelwagen wijzigen</a>
                 </div>

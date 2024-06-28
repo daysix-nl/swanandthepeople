@@ -624,11 +624,11 @@ video {
 .top-3 {
   top: 30px;
 }
+.top-\[0px\] {
+  top: 0px;
+}
 .top-\[123px\] {
   top: 123px;
-}
-.top-\[143px\] {
-  top: 143px;
 }
 .z-50 {
   z-index: 50;
@@ -2520,8 +2520,8 @@ video {
 }
 @media (min-width: 1352px) {
 
-  .xl\:top-\[143px\] {
-    top: 143px;
+  .xl\:top-\[0px\] {
+    top: 0px;
   }
 
   .xl\:mb-\[132px\] {

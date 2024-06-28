@@ -159,23 +159,29 @@ button.update-cart {
             order: 2 !important;
         }
 
+        #billing_state_field,
+        #shipping_state_field {
+            width: 100% !important;
+            order: 4 !important;
+        }
+
         #billing_phone_field,
         #shipping_phone_field {
             width: 100% !important;
-            order: 3 !important;
+            order: 9 !important;
         }
 
         #billing_email_field,
         #shipping_email_field {
             width: 100% !important;
-            order: 4 !important;
+            order: 10 !important;
         }
 
         #billing_country_field,
         #shipping_country_field {
             width: 100% !important;
             order: 5 !important;
-            display: none !important;
+            // display: none !important;
         }
 
 
@@ -212,23 +218,29 @@ button.update-cart {
                 order: 2 !important;
             }
 
+            #billing_state_field,
+            #shipping_state_field {
+                width: 100% !important;
+                order: 5 !important;
+            }
+
             #billing_phone_field,
             #shipping_phone_field {
                 width: 35% !important;
-                order: 3 !important;
+                order: 9 !important;
             }
 
             #billing_email_field,
             #shipping_email_field {
                 width: 65% !important;
-                order: 4 !important;
+                order: 10 !important;
             }
 
             #billing_country_field,
             #shipping_country_field {
                 width: 35% !important;
                 order: 5 !important;
-                display: none !important;
+                // display: none !important;
             }
 
 
@@ -462,23 +474,29 @@ button.update-cart {
             order: 2 !important;
         }
 
+        #billing_state_field,
+        #shipping_state_field {
+            width: 100% !important;
+            order: 5 !important;
+        }
+
         #billing_phone_field,
         #shipping_phone_field {
             width: 100% !important;
-            order: 3 !important;
+            order: 9 !important;
         }
 
         #billing_email_field,
         #shipping_email_field {
             width: 100% !important;
-            order: 4 !important;
+            order: 10 !important;
         }
 
         #billing_country_field,
         #shipping_country_field {
             width: 100% !important;
             order: 5 !important;
-            display: none !important;
+            // display: none !important;
         }
 
 
@@ -515,23 +533,29 @@ button.update-cart {
                 order: 2 !important;
             }
 
+            #billing_state_field,
+            #shipping_state_field {
+                width: 100% !important;
+                order: 5 !important;
+            }
+
             #billing_phone_field,
             #shipping_phone_field {
                 width: 35% !important;
-                order: 3 !important;
+                order: 9 !important;
             }
 
             #billing_email_field,
             #shipping_email_field {
                 width: 65% !important;
-                order: 4 !important;
+                order: 10 !important;
             }
 
             #billing_country_field,
             #shipping_country_field {
                 width: 35% !important;
                 order: 5 !important;
-                display: none !important;
+                // display: none !important;
             }
 
 
@@ -681,4 +705,18 @@ button.update-cart {
 
 .woocommerce-ordering {
     display: none !important;
+}
+
+.woocommerce-message::before {
+    display: none !important;
+}
+
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {
+    display: none !important;
+}
+
+.notice .woocommerce-form-coupon-toggle {
+    display: none;
 }
