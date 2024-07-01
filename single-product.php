@@ -280,7 +280,7 @@ if ( post_password_required() ) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="absolute md:top-0 right-0 bottom-0 w-[100px] md:w-[320px] bg-black h-[100px] md:h-full z-[2] md:z-[1] overflow-hidden rounded-[20px]">
+                            <div class="absolute md:top-0 right-0 bottom-0 w-[130px] md:w-[320px] bg-black h-[180px] md:h-full z-[2] md:z-[1] overflow-hidden rounded-[20px]">
                                 <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover object-center">
                             </div>
                         </div>

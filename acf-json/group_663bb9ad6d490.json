@@ -142,6 +142,22 @@
                     "parent_repeater": "field_663bb9adaf640"
                 }
             ]
+        },
+        {
+            "key": "field_6682a699b9f2d",
+            "label": "Button",
+            "name": "button",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
         }
     ],
     "location": [
@@ -162,5 +178,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1717574865
+    "modified": 1719838377
 }

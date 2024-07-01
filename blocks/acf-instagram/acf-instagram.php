@@ -32,14 +32,14 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
 <!-- INSTAGRAM -->
 <section class="<?php echo get_field('achtergrond');?> <?php echo get_field('witruimte_bovenkant');?> <?php echo get_field('witruimte_onderkant');?>">
     <div class="h-full lg:h-[418px] xl:h-[470px] bg-[#5D7365] grid lg:flex justify-end relative overflow-hidden">
-        <div class="h-full max-h-[500px] md:max-h-[unset] w-screen lg:w-[calc(50%-345px)] xl:w-[calc(50%-390px)] relative overflow-hidden order-2">
+        <div class="h-full w-screen lg:w-[calc(50%-345px)] xl:w-[calc(50%-390px) relative overflow-hidden order-2 z-[2]">
             <img src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center-top">
         </div>
-        <div class="lg:absolute top-0 left-0 right-0 bottom-0 order-1 z-[2]">
-            <div class="w-full h-full flex items-center">
-                <div class="container h-[592px] lg:h-[202px] xl:h-[228px]">
+        <div class="lg:absolute top-0 left-0 right-0 bottom-0 order-1 z-[3]">
+            <div class="w-full h-full flex items-center relative">
+                <div class="container md:h-[592px] lg:h-[202px] xl:h-[228px]">
                     <div class="w-full lg:max-w-[956px] xl:max-w-[1080px] h-full lg:ml-[45px] xl:ml-[50px] flex flex-col lg:flex-row items-center justify-between">
-                        <div class="h-full w-full lg:w-[288px] xl:w-[329px] flex items-center order-2 lg:order-1">
+                        <div class="h-full w-full lg:w-[288px] xl:w-[329px] flex items-center order-2 lg:order-1 pt-[130px] md:pt-[unset] pb-[50px] md:pb-[unset]">
                             <div class="">
                                 <h3 class="font-crimson font-normal text-16 leading-28 text-white">@<?php echo get_field('gebruikersnaam');?></h3>
                                 <h2 class="text-white font-crimson font-normal text-36 leading-36 mt-[8px]"><?php echo get_field('titel');?></h2>
@@ -48,21 +48,27 @@ $link_target = isset($link['target']) ? esc_attr($link['target']) : '';
                                 <?php endif; ?>
                             </div>
                         </div>
-                        <div class="h-full flex lg:w-full lg:max-w-[652px] xl:max-w-[733px] justify-between order-1 lg:order-2 pt-[80px] lg:pt-[unset]">
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px] mr-[30px] lg:mr-[unset]">
-                                <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
-                            </div>
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px] mr-[30px] lg:mr-[unset]">
-                                <img src="<?php echo $image2_url; ?>" alt="<?php echo $image2_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
-                            </div>
-                            <div class="h-full aspect-[1/1] w-[228px] lg:w-[202px] xl:w-[228px] bg-black overflow-hidden rounded-[20px]">
-                                <img src="<?php echo $image3_url; ?>" alt="<?php echo $image3_alt; ?>" class="h-full min-h-full min-w-full object-cover ocject-center">
+                        <div class="h-[50vw] w-[360px] md:h-full md:w-full max-w-full lg:w-full lg:max-w-[652px] xl:max-w-[733px] justify-between order-1 lg:order-2 pt-[80px] lg:pt-[unset]">
+                            <div class="swiper mySwiperInsta absolute md:relative top-[80px] md:top-[unset] left-0 right-0 md:left-[unset] md:right-[unset]">
+                                <div class="swiper-wrapper ml-[calc(50vw-180px)] md:ml-[unset] mr-[calc(50vw+380px)] md:mr-[unset]">
+                                    <a href="<?php echo $link_url; ?>" class="swiper-slide aspect-[1/1] w-[50vw] h-[50vw] md:w-[228px] md:h-[228px] lg:w-[202px] xl:w-[228px] lg:h-[202px] xl:h-[228px] bg-black overflow-hidden mr-[30px] lg:mr-[unset] rounded-[20px]">
+                                        <img src="<?php echo $image1_url; ?>" alt="<?php echo $image1_alt; ?>" class="min-h-full min-w-full object-cover ocject-center">
+                                    </a>
+                                    <a href="<?php echo $link_url; ?>" class="swiper-slide aspect-[1/1] w-[50vw] h-[50vw] md:w-[228px] md:h-[228px] lg:w-[202px] xl:w-[228px] lg:h-[202px] xl:h-[228px] bg-black overflow-hidden mr-[30px] lg:mr-[unset] rounded-[20px]">
+                                        <img src="<?php echo $image2_url; ?>" alt="<?php echo $image2_alt; ?>" class="min-h-full min-w-full object-cover ocject-center">
+                                    </a>
+                                    <a href="<?php echo $link_url; ?>" class="swiper-slide aspect-[1/1] w-[50vw] h-[50vw] md:w-[228px] md:h-[228px] lg:w-[202px] xl:w-[228px] lg:h-[202px] xl:h-[228px] bg-black overflow-hidden mr-[30px] lg:mr-[unset] rounded-[20px]">
+                                        <img src="<?php echo $image3_url; ?>" alt="<?php echo $image3_alt; ?>" class="min-h-full min-w-full object-cover ocject-center">
+                                    </a>
+                                </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
-</section>
+ </section>
 <?php endif; ?>

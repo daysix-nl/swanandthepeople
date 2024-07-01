@@ -110,6 +110,9 @@
             <div class="w-full md:w-[447px] lg:w-[282px] xl:w-[346px] order-2 md:order-3 lg:order-4 md:mt-[42px] lg:mt-[unset]">
                 <h3 class="font-normal text-22 leading-30 text-[#5D7365] mb-[20px]">Volg onze nieuwsbrief!</h3>
                 <p class="font-normal text-15 leading-30 text-[#525252] max-w-[300px]">Meld je aan voor onze nieuwsbrief en ga met ons op reis naar bewust moederschap.</p>
+                <div class="swanform mt-[15px] max-w-[360px]">
+                    <?php echo do_shortcode('[gravityform id="1" title="false"]'); ?>
+                </div>
             </div>
         </div>
     </section>

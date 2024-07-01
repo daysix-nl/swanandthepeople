@@ -630,11 +630,17 @@ video {
 .top-\[123px\] {
   top: 123px;
 }
+.top-\[80px\] {
+  top: 80px;
+}
 .z-50 {
   z-index: 50;
 }
 .z-\[2\] {
   z-index: 2;
+}
+.z-\[3\] {
+  z-index: 3;
 }
 .z-\[99999\] {
   z-index: 99999;
@@ -712,6 +718,9 @@ video {
 .ml-\[15px\] {
   margin-left: 15px;
 }
+.ml-\[calc\(50vw-180px\)\] {
+  margin-left: calc(50vw - 180px);
+}
 .mr-\[-1px\] {
   margin-right: -1px;
 }
@@ -732,6 +741,9 @@ video {
 }
 .mr-\[8px\] {
   margin-right: 8px;
+}
+.mr-\[calc\(50vw\+380px\)\] {
+  margin-right: calc(50vw + 380px);
 }
 .mt-2 {
   margin-top: 20px;
@@ -807,9 +819,6 @@ video {
 }
 .h-3 {
   height: 30px;
-}
-.h-\[100px\] {
-  height: 100px;
 }
 .h-\[101px\] {
   height: 101px;
@@ -907,14 +916,14 @@ video {
 .h-\[50px\] {
   height: 50px;
 }
+.h-\[50vw\] {
+  height: 50vw;
+}
 .h-\[515px\] {
   height: 515px;
 }
 .h-\[52px\] {
   height: 52px;
-}
-.h-\[592px\] {
-  height: 592px;
 }
 .h-\[60vh\] {
   height: 60vh;
@@ -949,9 +958,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.max-h-\[500px\] {
-  max-height: 500px;
 }
 .max-h-\[600px\] {
   max-height: 600px;
@@ -998,9 +1004,6 @@ video {
 .w-\[200px\] {
   width: 200px;
 }
-.w-\[228px\] {
-  width: 228px;
-}
 .w-\[297px\] {
   width: 297px;
 }
@@ -1024,6 +1027,9 @@ video {
 }
 .w-\[45px\] {
   width: 45px;
+}
+.w-\[50vw\] {
+  width: 50vw;
 }
 .w-\[510px\] {
   width: 510px;
@@ -1098,6 +1104,9 @@ video {
 }
 .max-w-\[900px\] {
   max-width: 900px;
+}
+.max-w-full {
+  max-width: 100%;
 }
 .rotate-\[180deg\] {
   --tw-rotate: 180deg;
@@ -1271,6 +1280,10 @@ video {
 .border-\[\#2B2828\] {
   --tw-border-opacity: 1;
   border-color: rgb(43 40 40 / var(--tw-border-opacity));
+}
+.border-\[\#525252\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(82 82 82 / var(--tw-border-opacity));
 }
 .border-\[\#5D7365\] {
   --tw-border-opacity: 1;
@@ -1453,6 +1466,9 @@ video {
 }
 .pt-\[0px\] {
   padding-top: 0px;
+}
+.pt-\[130px\] {
+  padding-top: 130px;
 }
 .pt-\[15px\] {
   padding-top: 15px;
@@ -1766,12 +1782,28 @@ video {
 }
 @media (min-width: 768px) {
 
+  .md\:relative {
+    position: relative;
+  }
+
   .md\:bottom-\[unset\] {
     bottom: unset;
   }
 
+  .md\:left-\[unset\] {
+    left: unset;
+  }
+
+  .md\:right-\[unset\] {
+    right: unset;
+  }
+
   .md\:top-0 {
     top: 0;
+  }
+
+  .md\:top-\[unset\] {
+    top: unset;
   }
 
   .md\:z-\[1\] {
@@ -1800,6 +1832,10 @@ video {
 
   .md\:ml-\[25px\] {
     margin-left: 25px;
+  }
+
+  .md\:ml-\[unset\] {
+    margin-left: unset;
   }
 
   .md\:mr-\[10px\] {
@@ -1878,6 +1914,10 @@ video {
     aspect-ratio: 16/10;
   }
 
+  .md\:h-\[228px\] {
+    height: 228px;
+  }
+
   .md\:h-\[270px\] {
     height: 270px;
   }
@@ -1898,12 +1938,12 @@ video {
     height: 480px;
   }
 
-  .md\:h-full {
-    height: 100%;
+  .md\:h-\[592px\] {
+    height: 592px;
   }
 
-  .md\:max-h-\[unset\] {
-    max-height: unset;
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:w-\[130px\] {
@@ -1912,6 +1952,10 @@ video {
 
   .md\:w-\[160px\] {
     width: 160px;
+  }
+
+  .md\:w-\[228px\] {
+    width: 228px;
   }
 
   .md\:w-\[233px\] {
@@ -1980,6 +2024,10 @@ video {
 
   .md\:w-\[calc\(100\%-25px\)\] {
     width: calc(100% - 25px);
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:max-w-\[300px\] {
@@ -2098,6 +2146,10 @@ video {
 
   .md\:pb-\[50px\] {
     padding-bottom: 50px;
+  }
+
+  .md\:pb-\[unset\] {
+    padding-bottom: unset;
   }
 
   .md\:pt-\[10px\] {
@@ -2483,6 +2535,11 @@ video {
     line-height: 36px;
   }
 
+  .lg\:hover\:border-\[\#525252\]:hover {
+    --tw-border-opacity: 1;
+    border-color: rgb(82 82 82 / var(--tw-border-opacity));
+  }
+
   .lg\:hover\:border-\[\#5D7365\]:hover {
     --tw-border-opacity: 1;
     border-color: rgb(93 115 101 / var(--tw-border-opacity));
@@ -2491,6 +2548,11 @@ video {
   .lg\:hover\:border-\[\#fff\]:hover {
     --tw-border-opacity: 1;
     border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  }
+
+  .lg\:hover\:bg-\[\#525252\]:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(82 82 82 / var(--tw-bg-opacity));
   }
 
   .lg\:hover\:bg-\[\#5D7365\]:hover {
@@ -2666,10 +2728,6 @@ video {
 
   .xl\:w-\[calc\(100\%-120px\)\] {
     width: calc(100% - 120px);
-  }
-
-  .xl\:w-\[calc\(50\%-390px\)\] {
-    width: calc(50% - 390px);
   }
 
   .xl\:max-w-\[1080px\] {

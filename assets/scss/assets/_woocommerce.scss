@@ -633,6 +633,16 @@ button.update-cart {
     display: none !important;
 }
 
+.wvs-style-rounded li {
+    margin-right: 15px !important;
+}
+
+// MD
+@media (min-width: 768px) {
+    .wvs-style-rounded li {
+        margin-right: 20px !important;
+    }
+}
 
 .wvs-style-rounded li:last-of-type {
     margin-right: 0px !important;
