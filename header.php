@@ -33,7 +33,7 @@
 </script>
   
 </head>
-<body <?php body_class( 'page-block menu-non-active maattabel-close' ); ?> 
+<body <?php body_class( 'page-block menu-non-active maattabel-close' ); ?> >
   
 <header class="fixed top-0 left-0 right-0 z-[9999]">
     <div class="h-[35px] w-full bg-[#5D7365] hidden lg:block">
