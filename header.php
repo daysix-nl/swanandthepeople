@@ -10,8 +10,6 @@
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
@@ -212,7 +210,7 @@
         </div>
     </div>
 </header>
-<!-- <div class="h-[123px]"></div> -->
+<div class="h-[123px]"></div>
 
 
 <div class="menu fixed h-[calc(100dvh-123px)] w-full max-w-[390px] top-[123px] bottom-0 bg-white z-[999] min-h-[530px] overflow-y-auto">
