@@ -120,7 +120,7 @@ if ( post_password_required() ) {
             <div class="w-full lg:w-[515px] xl:w-[585px]">
                 <h1 class="text-36 leading-42 text-[#5D7365] font-normal mt-[40px] lg:mt-[25px]"><?php the_title();?></h1>
                 <p class="text-18 leading-18 text-[#5D7365] font-normal mt-[10px]"><?php echo $product->get_price_html(); ?></p>
-                <p class="text-14 leading-25 text-[#525252] mt-[40px] md:mr-[40px]"><?php echo get_the_excerpt(); ?></p>
+                <div class="text-14 leading-25 text-[#525252] mt-[40px] md:mr-[40px] text-editor"><?php echo get_the_excerpt(); ?></div>
                 <hr class="my-[30px]">
                 <div class="flex flex-wrap items-start space-x-2">
                     <div class="w-[40px]">
